@@ -62,8 +62,7 @@ fn unit_label(u: Unit) -> &'static str {
 }
 
 /// Every length unit, in the Preferences › Units & Rulers order.
-const UNITS: [Unit; 7] =
-    [Unit::Pixels, Unit::Inches, Unit::Centimeters, Unit::Millimeters, Unit::Points, Unit::Picas, Unit::Percent];
+const UNITS: [Unit; 7] = [Unit::Pixels, Unit::Inches, Unit::Centimeters, Unit::Millimeters, Unit::Points, Unit::Picas, Unit::Percent];
 
 /// The ruler right-click menu: every length unit with its (translated) label and whether it's the
 /// one in effect. Picking one changes the ruler unit exactly as the preference pane does.
